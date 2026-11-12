@@ -106,4 +106,9 @@ html[lang^="ar"] :is(.sl-eyebrow){font-family:inherit;font-weight:600}
 .slp .b{display:inline-block;margin-top:22px;background:#EF98B9;color:#3A2230;padding:12px 28px;border-radius:999px;font-weight:700;text-decoration:none}
 .slp hr.d{border:0;border-top:1px solid #FFD2E7;margin:48px 0}
 @media(max-width:600px){.slp h2{font-size:28px}}
+
+/* show only the visitor's language on bilingual info pages */
+html[lang^="en"] .slp[lang="ar"], html[lang^="en"] .slp ~ hr.d, html[lang^="en"] [data-sl="ar"]{display:none!important}
+html[lang^="ar"] .slp[lang="en"], html[lang^="ar"] hr.d, html[lang^="ar"] [data-sl="en"]{display:none!important}
+html[lang^="en"] .slp[lang="en"]{display:block}
 body.index .s-block--hero-slider{display:none!important}
