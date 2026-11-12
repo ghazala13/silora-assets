@@ -87,4 +87,23 @@ html[lang^="ar"] :is(.sl-eyebrow){font-family:inherit;font-weight:600}
   .sl-story{grid-template-columns:1fr}
   .sl-ig{grid-template-columns:repeat(3,minmax(0,1fr))}
 }
+
+/* ---- Informational pages (Our fabric, Contact, Shipping) ---- */
+.slp{max-width:880px;margin:0 auto;padding:8px 0 40px;color:#3A2230;line-height:1.8}
+.slp *{box-sizing:border-box}
+.slp .ey{display:block;color:#EF98B9;font-weight:700;letter-spacing:.04em;font-size:15px}
+.slp h2{font-size:34px;line-height:1.25;margin:6px 0 12px;color:#3A2230}
+.slp h3{font-size:22px;margin:34px 0 10px;color:#3A2230}
+.slp p{color:#6E5A66;font-size:16px;margin:0 0 12px}
+.slp ul{color:#6E5A66;padding-inline-start:22px}
+.slp a:not(.b){color:#3A2230;text-decoration:underline;text-decoration-color:#EF98B9}
+.slp .g{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:14px}
+.slp .c{background:#FFF8F3;border:1px solid #FFD2E7;border-radius:18px;padding:20px}
+.slp .c b{display:block;font-size:17px;color:#3A2230;margin-bottom:4px}
+.slp .c span{color:#6E5A66;font-size:15px}
+.slp .n{font-size:40px;font-weight:700;color:#EF98B9;line-height:1.1}
+.slp .n small{font-size:20px;margin-inline-start:4px}
+.slp .b{display:inline-block;margin-top:22px;background:#EF98B9;color:#3A2230;padding:12px 28px;border-radius:999px;font-weight:700;text-decoration:none}
+.slp hr.d{border:0;border-top:1px solid #FFD2E7;margin:48px 0}
+@media(max-width:600px){.slp h2{font-size:28px}}
 body.index .s-block--hero-slider{display:none!important}
